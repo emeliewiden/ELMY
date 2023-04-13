@@ -1,0 +1,72 @@
+[
+    {
+      "id": "1",
+      "name": "GOLDEN BURGER",
+      "infotext": "Homemade prime rib burger with cheddar cheese, bacon, caramelized onions, roasted onions and truffle mayo",
+      "price": "159 SEK"
+    },
+
+    {
+        "id": "2",
+        "name": "CLASSIC",
+        "infotext": "Homemade prime rib burger with cheddar cheese",
+        "price": "129 SEK"
+    },
+
+    {
+        "id": "3",
+        "name": "CHILI BURGER",
+        "infotext": "Homemade prime rib burger with cheddar cheese, fresh chili, chili mayo, lettuce & silver onion",
+        "price": "159 SEK"
+    },
+
+    {
+        "id": "4",
+        "name": "BBQ BURGER",
+        "infotext": "Homemade prime rib burger with cheddar cheese, house mayo, bacon, BBQ sauce, lettuce & silver onion",
+        "price": "159 SEK"
+    },
+
+    {
+        "id": "5",
+        "name": "TRUFFLE BURGER",
+        "infotext": "Homemade prime rib burger with truffle cheese, onion ring, caramelized onion, truffle mayo, lettuce & silver onion.",
+        "price": "159 SEK"
+    },
+
+    {
+        "id": "6",
+        "name": "DIRTY BURGER",
+        "infotext": "Homemade prime rib burger with cheddar cheese, bacon, chipotle mayo, fresh chili, chopped green onions, salted crème fraîche, lettuce leaves & silver onions",
+        "price": "159 SEK"
+    },
+
+    {
+        "id": "7",
+        "name": "CHEF'S CHOICE",
+        "infotext": "Let the chef make you a special meal",
+        "price": "159 SEK"
+    },
+
+    {
+        "id": "8",
+        "name": "",
+        "infotext": "",
+        "price": "159 SEK"
+    },
+
+    {
+        "id": "9",
+        "name": "",
+        "infotext": "",
+        "price": "159 SEK"
+    },
+
+    {
+        "id": "10",
+        "name": "",
+        "infotext": "",
+        "price": "159 SEK"
+    }
+]
+

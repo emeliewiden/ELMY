@@ -1,0 +1,176 @@
+/*
+
+1. APP
+2. NAVBAR
+3. HEROSECTION
+4. BOOKING FORM
+5. MENU PAGE
+*/
+
+/* 1. APP */
+.App {
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+body {
+    background-color: black !important;
+}
+
+/* 2. NAVBAR */
+#root > div > nav {
+    background-color: transparent !important;
+}
+
+.brand {
+    color: goldenrod !important;
+    font-size: 5rem !important;
+    font-family: 'Amatic SC', cursive;
+}
+.navLink {
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 1vh;
+    font-size: 1.3rem;
+}
+
+.navLink:hover {
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 2rem;
+    transition: 500ms;
+}
+
+.container {
+    background-color: transparent !important;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    color: white;
+    width: 100% !important;
+}
+
+#basic-navbar-nav > div {
+    background-color: black;
+    opacity: 85%;
+}
+
+.toggle {
+    background-color: goldenrod !important;
+    margin-right: 2vh !important;
+}
+
+/* 3. HEROSECTION */
+.HeroImg {
+    background-image: url('https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    margin-top: 0;
+    top: 0;
+}
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    border-top: 0.3vw solid white;
+    border-bottom: 0.3vw solid white;
+    padding: 70px;
+    font-family: 'Dosis', sans-serif;
+}
+
+/* 4. BOOKING FORM */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container p {
+    /* font-family: 'Dosis', sans-serif; */
+    color: goldenrod;
+    font-size: 3rem;
+    border: 0.1vw solid white;
+    padding: 40px;
+    font-family: 'Amatic SC', cursive;
+}
+
+form {
+    font-family: 'Dosis', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='number'],
+input[type='date'] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+button[type='submit'] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: darkgreen;
+    /* background-color: #008080; */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type='submit']:hover {
+    background-color: goldenrod;
+    /* background-color: #006666; */
+}
+
+/* 5. MENU PAGE  */
+.MenuProps {
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 15vh;
+}
+
+#root > div > div > ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: goldenrod;
+    font-size: 1.2rem;
+    padding: 50px 50px 50px 20px;
+    margin: 50px;
+    margin-top: 15vh;
+}
+
+.ListName {
+    font-size: 1.6rem;
+    margin-bottom: 1.5vh;
+}
+.ListPrice {
+    margin-bottom: 6vh;
+}
