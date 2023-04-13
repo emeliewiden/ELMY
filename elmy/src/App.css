@@ -5,6 +5,7 @@
 3. HEROSECTION
 4. BOOKING FORM
 5. MENU PAGE
+6. ABOUT
 */
 
 /* 1. APP */
@@ -173,4 +174,13 @@ button[type='submit']:hover {
 }
 .ListPrice {
     margin-bottom: 6vh;
+}
+
+/* 6. ABOUT */
+.UsecontextStyle {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    background-color: lightgray;
+    padding: 10px;
 }
