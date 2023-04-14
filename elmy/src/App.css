@@ -1,12 +1,27 @@
 /*
-
+DESCRIPTION
 1. APP
 2. NAVBAR
 3. HEROSECTION
 4. BOOKING FORM
 5. MENU PAGE
 6. ABOUT
+7. JOB PAGE
 */
+
+/* Root settings*/
+* {
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Amatic SC', cursive;
+
+    --one: white;
+
+    --two: goldenrod;
+
+    --three: black;
+}
+
+
 
 /* 1. APP */
 .App {
@@ -15,8 +30,12 @@
 }
 
 body {
-    background-color: black !important;
+    background-color: var(--three) !important;
 }
+
+
+
+
 
 /* 2. NAVBAR */
 #root > div > nav {
@@ -24,7 +43,7 @@ body {
 }
 
 .brand {
-    color: goldenrod !important;
+    color: var(--two) !important;
     font-size: 5rem !important;
     font-family: 'Amatic SC', cursive;
 }
@@ -38,7 +57,7 @@ body {
 
 .navLink:hover {
     text-decoration: none;
-    color: goldenrod;
+    color: var(--two);
     font-size: 2rem;
     transition: 500ms;
 }
@@ -58,9 +77,13 @@ body {
 }
 
 .toggle {
-    background-color: goldenrod !important;
+    background-color: var(--two) !important;
     margin-right: 2vh !important;
 }
+
+
+
+
 
 /* 3. HEROSECTION */
 .HeroImg {
@@ -86,6 +109,10 @@ body {
     font-family: 'Dosis', sans-serif;
 }
 
+
+
+
+
 /* 4. BOOKING FORM */
 .form-container {
     display: flex;
@@ -95,20 +122,23 @@ body {
 }
 
 .form-container p {
-    /* font-family: 'Dosis', sans-serif; */
-    color: goldenrod;
+    color: var(--two);
     font-size: 3rem;
-    border: 0.1vw solid white;
+    /* border: 0.1vw solid white; */
     padding: 40px;
     font-family: 'Amatic SC', cursive;
+    border-top: 0.1vw solid white;
+    border-bottom: 0.1vw solid white;
+    width: 50%;
 }
 
 form {
+    border-top: 0.1vw solid white;
     font-family: 'Dosis', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f5f5f5;
+    /* background-color: #f5f5f5; */
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
@@ -119,6 +149,8 @@ label {
     flex-direction: column;
     margin-bottom: 10px;
     font-weight: 500;
+    color: var(--two);
+    font-size: 1.5rem;
 }
 
 input[type='text'],
@@ -131,6 +163,7 @@ input[type='date'] {
     margin-left: 10px;
     margin-top: 5px;
     font-size: 16px;
+    font-weight: bold;
 }
 
 button[type='submit'] {
@@ -139,33 +172,48 @@ button[type='submit'] {
     border-radius: 5px;
     margin-top: 20px;
     background-color: darkgreen;
-    /* background-color: #008080; */
     color: #fff;
     font-size: 16px;
     cursor: pointer;
 }
 
 button[type='submit']:hover {
-    background-color: goldenrod;
-    /* background-color: #006666; */
+    background-color: var(--two);
 }
 
+
+
+
+
 /* 5. MENU PAGE  */
+.MenuText {
+    color: var(--two);
+    font-size: 4rem;
+    padding-bottom: 15vh;
+    font-family: 'Amatic SC', cursive;
+}
 .MenuProps {
     color: white;
-    font-size: 2rem;
+    font-size: 3rem;
     padding-bottom: 15vh;
+    font-family: 'Amatic SC', cursive;
 }
 
 #root > div > div > ol {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    color: goldenrod;
+    color: var(--two);
     font-size: 1.2rem;
     padding: 50px 50px 50px 20px;
     margin: 50px;
     margin-top: 15vh;
+    border-top: 0.1vw solid white;
+    /* border-bottom: 0.1vw solid white; */
+}
+
+li {
+    list-style: none;
 }
 
 .ListName {
@@ -176,11 +224,25 @@ button[type='submit']:hover {
     margin-bottom: 6vh;
 }
 
-/* 6. ABOUT */
-.UsecontextStyle {
-    font-size: 20px;
-    font-weight: bold;
-    color: red;
-    background-color: lightgray;
-    padding: 10px;
+
+
+
+/* 6. ABOUT
+Kör även på inlinestyling i About.tsx*/
+.aboutInfo {
+    margin-top: 30vh;
+}
+
+.jobLink {
+    color: white;
+    font-size: 30px;
+}
+
+
+
+
+/* 7. JOB PAGE  */
+.jobPage {
+    font-size: 30px;
+    color: white;
 }

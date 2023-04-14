@@ -7,7 +7,7 @@ import MenuPage from './pages/MenuPage'
 import About from './components/About.tsx'
 import BookingPage from './pages/BookingPage'
 import { UserContext } from './pages/UserContext'
-// import ProductId from './pages/ProductId'
+import ProductId from './pages/ProductId'
 
 function App() {
     return (
@@ -24,9 +24,9 @@ function App() {
                     <Route path="/booking" element={<BookingPage />}></Route>
                     <Route
                         path="/about"
-                        element={<About name={'trying props typescript'} />}
+                        element={<About name={'+46 xx xxx xx xx'} />} // här skriver man in propsen till typescript (About.tsx)
                     ></Route>
-                    {/* <Route path="/products:id" element={<ProductId />}></Route> */}
+                    <Route path="/products/:id" element={<ProductId />}></Route>
                 </Routes>
             </UserContext.Provider>
         </div>

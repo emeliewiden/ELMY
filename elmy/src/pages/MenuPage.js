@@ -21,7 +21,7 @@ function ListSection() {
     }, [])
     //
 
-    // Check if data has any data before rendering
+    // Kollar om data har någon data innan rendering
     if (!data.length) {
         return <div>Loading data...</div>
     }
@@ -29,6 +29,7 @@ function ListSection() {
     return (
         <div>
             <ol>
+                <h1 className='MenuText'>MENU</h1>
                 {data.map((item) => (
                     <li key={item.id}>
                         <div>

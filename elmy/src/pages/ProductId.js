@@ -1,12 +1,15 @@
 // import React, { useEffect } from 'react'
-// import { useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 
-// function ProductId() {
-//     const { id } = useParams ()
+// Funktion för att använda adressparametervärde
+function ProductId() {
+    const { id } = useParams()
 
-//     return (
-//         <div>ProductId</div>
-//     )
-// }
+    return (
+        <div className="jobPage">
+            <h2>{id}</h2>
+        </div>
+    )
+}
 
-// export default ProductId
+export default ProductId
