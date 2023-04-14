@@ -21,8 +21,6 @@ DESCRIPTION
     --three: black;
 }
 
-
-
 /* 1. APP */
 .App {
     text-align: center;
@@ -32,10 +30,6 @@ DESCRIPTION
 body {
     background-color: var(--three) !important;
 }
-
-
-
-
 
 /* 2. NAVBAR */
 #root > div > nav {
@@ -50,7 +44,7 @@ body {
 .navLink {
     font-family: 'Dosis', sans-serif;
     text-decoration: none;
-    color: white;
+    color: var(--one);
     padding: 1vh;
     font-size: 1.3rem;
 }
@@ -67,7 +61,7 @@ body {
     position: absolute;
     top: 0;
     z-index: 999;
-    color: white;
+    color: var(--one);
     width: 100% !important;
 }
 
@@ -80,10 +74,6 @@ body {
     background-color: var(--two) !important;
     margin-right: 2vh !important;
 }
-
-
-
-
 
 /* 3. HEROSECTION */
 .HeroImg {
@@ -102,16 +92,12 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: var(--one);
     border-top: 0.3vw solid white;
     border-bottom: 0.3vw solid white;
     padding: 70px;
     font-family: 'Dosis', sans-serif;
 }
-
-
-
-
 
 /* 4. BOOKING FORM */
 .form-container {
@@ -123,9 +109,9 @@ body {
 
 .form-container p {
     color: var(--two);
-    font-size: 3rem;
+    font-size: 30px;
     /* border: 0.1vw solid white; */
-    padding: 40px;
+    padding: 30px;
     font-family: 'Amatic SC', cursive;
     border-top: 0.1vw solid white;
     border-bottom: 0.1vw solid white;
@@ -181,10 +167,6 @@ button[type='submit']:hover {
     background-color: var(--two);
 }
 
-
-
-
-
 /* 5. MENU PAGE  */
 .MenuText {
     color: var(--two);
@@ -193,7 +175,7 @@ button[type='submit']:hover {
     font-family: 'Amatic SC', cursive;
 }
 .MenuProps {
-    color: white;
+    color: var(--one);
     font-size: 3rem;
     padding-bottom: 15vh;
     font-family: 'Amatic SC', cursive;
@@ -224,9 +206,6 @@ li {
     margin-bottom: 6vh;
 }
 
-
-
-
 /* 6. ABOUT
 Kör även på inlinestyling i About.tsx*/
 .aboutInfo {
@@ -234,15 +213,13 @@ Kör även på inlinestyling i About.tsx*/
 }
 
 .jobLink {
-    color: white;
+    color: var(--one);
     font-size: 30px;
 }
-
-
-
 
 /* 7. JOB PAGE  */
 .jobPage {
     font-size: 30px;
-    color: white;
+    color: var(--one);
+    margin-top: 30vh;
 }
